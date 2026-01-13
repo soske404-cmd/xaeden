@@ -1,5 +1,4 @@
-https://botcodexx.t
-me
+# https://botcodexx.t.me
 
 import requests
 import telebot,time
@@ -117,7 +116,7 @@ by ➜ @botcodexx''', reply_markup=mes)
 					
 				elif 'Your card does not support this type of purchase' in last:
 				    cvv += 1
-				    			    
+				    				    
 				elif 'security code is incorrect' in last or 'security code is invalid' in last:
 					ccn += 1
 					
